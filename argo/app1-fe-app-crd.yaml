@@ -14,5 +14,5 @@ spec:
     namespace: app1-ns
   syncPolicy:
     automated:
-      prune: true
-      selfHeal: true
+      prune: true # For deleting the resources 
+      selfHeal: true # For self healing the resources 
