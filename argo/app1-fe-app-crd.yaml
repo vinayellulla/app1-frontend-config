@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: app1-fe-app
-  namespace: argocd
+  namespace: argo-cd
 spec:
   project: default
   source:
